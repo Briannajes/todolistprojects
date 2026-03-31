@@ -7,8 +7,6 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "predeploy": "expo export -p web",
-    "deploy": "gh-pages --nojekyll -d dist",
     "experiments": {
       "baseUrl": "/todolistprojects"
          }
