@@ -8,7 +8,10 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "predeploy": "expo export -p web",
-    "deploy": "gh-pages --nojekyll -d dist"
+    "deploy": "gh-pages --nojekyll -d dist",
+    "experiments": {
+      "baseUrl": "/todolistprojects"
+         }
   },
     "splash": {
       "image": "./assets/splash-icon.png",
